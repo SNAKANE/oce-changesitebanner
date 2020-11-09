@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+	<head>
+		<!-- Avoid FOUC issue in FF with async loading of style sheets -->
+		<style> body { opacity: 0; }</style>
+
+		<title>Sites Starter Template</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="[!--$SCS_SITE_PATH--]/favicon.ico">
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="_scs_theme_root_/assets/plugins/bootstrap/css/bootstrap.min.css">
+
+		<!-- Custom styles for this template -->
+		<link rel="stylesheet" type="text/css" href="_scs_theme_root_/designs/_scs_design_name_/design.css">
+
+
+		<!--$SCS_RENDER_INFO-->
+		<!--$SCS_SITE_HEADER-->
+		<!--$SCS_PAGE_HEADER-->
+	</head>
+
+	<body>
+		<!-- Needed to override the default Sites Theme styles -->
+		<link rel="stylesheet" href="_scs_theme_root_/assets/css/styles.css">
+		<link rel="stylesheet" href="_scs_theme_root_/assets/css/navbar.css">
+		<link rel="stylesheet" href="_scs_theme_root_/designs/default/socialbar.css">
+
+		<div class="header row">
+			<!-- These columns are flipped so they are in the correct order in single column mode -->
+			<div class="logo col-xs-4">
+				<div class="logocontainer scs-slot" id="logocontainer"></div>
+			</div>
+			<div class="col-xs-8">
+			</div>
+			<div class="menucontainer scs-slot" id="navMenu"></div>
+		</div>
+
+		<!-- Header - set the background image for the header in the line below -->
+		<header class="py-1 bg-image-full" style="background-image: url('_scs_theme_root_/assets/img/SampleBanner.jpg'); min-height: 370px;">
+		</header>
+
+		<div class="home content scs-slot scs-responsive" id="slot-content">
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<div class="footer scs-slot scs-responsive" id="footer"></div>
+			<div class="poweredBy"><span></span></div>
+		</footer>
+
+		<!-- Main JavaScript -->
+		<script type="text/javascript" src="_scs_theme_root_/assets/plugins/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="_scs_theme_root_/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script data-main="/_sitescloud/renderer/renderer.js" src="/_sitescloud/renderer/require.js"></script>
+
+		<!--$SCS_PAGE_FOOTER-->
+		<!--$SCS_SITE_FOOTER-->
+
+		<!-- Avoid FOUC issue in FF with async loading of style sheets -->
+		<style> body { opacity: 1; }</style>
+
+	</body>
+</html>
