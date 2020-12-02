@@ -36,16 +36,16 @@ OCEインスタンスが作成済であること。インスタンスの作成�
 OCEでサイトを作成する際に、サイト作成者は **テンプレート** を選択します。テンプレートには、サイト作成者がサイトの使用を開始するにあたり必要なものすべてが含まれます。例えば、サイト・コード・フレームワーク、サンプル・ページとコンテンツを含むデフォルト・サイト、スタイルが設定されたテーマ、イメージなどのリソース、カスタム・コンポーネントなどがすべて含まれます。
 
 テンプレートには「デフォルト・テンプレート」と「カスタム・テンプレート」があります
-+ デフォルト・テンプレート
++ **デフォルト・テンプレート**
     + OCEインスタンス内にあらかじめ定義されたテンプレート（事前定義済テンプレート）。サービス管理者による「デフォルト・サイト・テンプレートのインストール」およびテンプレートへのアクセス権限設定により、利用が可能となります
-    + Blank、Collateral Showcase、New Product Launch、Products and Services Overview、StarterTemplateなど13種類を提供。詳細は以下ドキュメントをご確認ください
-    https://docs.oracle.com/en/cloud/paas/content-cloud/creating-experiences/understand-templates.html
+    + Blank、Collateral Showcase、New Product Launch、Products and Services Overview、StarterTemplateなど13種類を提供。詳細は以下ドキュメントをご確認ください  
+    [https://docs.oracle.com/en/cloud/paas/content-cloud/creating-experiences/understand-templates.html](https://docs.oracle.com/en/cloud/paas/content-cloud/creating-experiences/understand-templates.html)
 
-+ カスタム・テンプレート
++ **カスタム・テンプレート**
     + Web開発者が作成したテンプレートで、デフォルトテンプレート同様に、サイトを構築するために必要な全ての要素(サイト、レイアウト、ナビゲーション、サンプル・コンテンツなど)が1つにまとめられています
     + カスタム・テンプレートは、「既存サイトからテンプレートを作成」により作成できます。詳細は以下ドキュメントをご確認ください  
-    https://docs.oracle.com/en/cloud/paas/content-cloud/creating-experiences/create-template-site.html
-    + 自社のブランディングに合わせた独自のテンプレートを作成する場合は、StarterTemplateを利用します
+    [https://docs.oracle.com/en/cloud/paas/content-cloud/creating-experiences/create-template-site.html](https://docs.oracle.com/en/cloud/paas/content-cloud/creating-experiences/create-template-site.html)
+    + 自社のブランディングに合わせた独自のテンプレートを作成する場合は、**StarterTemplate**を利用します
 
 #### 2.1.2 基本構造
 テンプレートの基本構造は以下の通りです。詳細は以下のマニュアルをご確認ください  
@@ -149,7 +149,7 @@ theme
 
 1. **index.html** をテキストエディタで開きます
 
-1. <header>タグ内のbackground-imageのURLを、アップロードしたバナー画像（SampleBanner.jpg）のファイル名に変更し、保存します
+1. **header** タグ内の *background-image* のURLを、アップロードしたバナー画像（SampleBanner.jpg）のファイル名に変更し、保存します
 
     ~~~HTML
     <!-- Header - set the background image for the header in the line below -->
