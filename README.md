@@ -1,3 +1,5 @@
+**目次に戻る**: [Oracle Content and Experience チュートリアル](https://community.oracle.com/tech/welcome/discussion/4474330)
+
 # Oracle Content and Experience で作成したサイトのバナー画像を変更しよう
 このチュートリアルは、Oracle Content and Experience (OCE)のデフォルトテンプレートを利用して作成されたサイトのバナー画像を変更する手順について、ステップ・バイ・ステップで紹介します
 
@@ -176,3 +178,5 @@ theme
 
 
 以上で、このチュートリアルは終了です。お疲れさまでした
+
+**目次に戻る**: [Oracle Content and Experience チュートリアル](https://community.oracle.com/tech/welcome/discussion/4474330)
